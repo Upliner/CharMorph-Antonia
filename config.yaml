@@ -1,0 +1,19 @@
+title: Antonia Polygon (CC-BY)
+author: Olaf Delgado-Friedrichs
+additional_authors: phantom3D, MikeJ, Fenrissa and others
+url: https://sites.google.com/site/antoniapolygon/
+license: CC-BY 3.0
+
+char_file: char.blend
+obj_name: antonia
+material_lib: ../../shared_lib.blend
+
+default_hair_length: 0.3
+hair_library: char.blend
+
+armature:
+  -
+    type: rigify
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    tweaks: ../../rigify_tweaks.yaml
